@@ -1,38 +1,32 @@
-<html>
-  <body>
-        <div>
+<!DOCTYPE html>
+<html lang="en">
 
-            <h1> Wanna get nikkah done?</h1>
-            <button id="yesButton">Yes</button>
-            <button id="no">No</button>
-
-
-        </div>
-         
-
-    <style> 
-         div{
-            text-align: center;
-            vertical-align: middle;
-         }
-        #no{
-            position: absolute;
-        }
-    
-    </style>
-    <script>
-        document.getElementById("yesButton").addEventListener("click",function(){;
-        alert("I Adore You!!!! <3");
-    });
-
-        var b = document.getElementById("no")
-        b.addEventListener("click",change);
-        function change() {
-            var i = Math.floor(Math.random()*1000)+1;
-            var j = Math.floor(Math.random()*700)+1;
-            b.style.left = i+"px";
-            b.style.top = j+"px";
-        }
-    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid calculette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+    <div class="display"></div>
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>/</button>
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+    <button>*</button>
+    <button>7</button>
+    <button>8</button>
+    <button>9</button>
+    <button>-</button>
+    <button>C</button>
+    <button>0</button>
+    <button>=</button>
+    <button>+</button>
+  </div>
   </body>
-</html>
+  </html>
